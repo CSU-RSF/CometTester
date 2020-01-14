@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+  
+  <CFarmAgroforestryData>
+    <AgroforestryLocation State="" County=""></AgroforestryLocation>
+    <AgroforestrySpecies SpeciesGroup="" SpeciesName="" Dbh="" Age="" TotalNumber=""></AgroforestrySpecies>
+  </CFarmAgroforestryData>
+
+  <CFarmReportData>
+    <AgroforestryReport LiveTrees="" DownedDeadWood="" ForestFloor="" StandingDeadTrees="" Understory="" Total=""></AgroforestryReport>
+  </CFarmReportData>
+
+</CFarmDatatable>

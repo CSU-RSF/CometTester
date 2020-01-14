@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+  <CFarmCroplandsData>
+    <!--this grabs the parcel that is being tested-->
+    <Parcel GpsCoordinates="34.50644, -91.469762" ParcelName="F1" PointAcres="" PolygonVertices="138,108,1023,126,1020,510,128,498" DragAdjust="400,-400,100,-60" PointAdjust="" DragCount="4" Scroll="2">
+      <HistoricManagement Pre1980Management="Lowland Non-Irrigated (Pre 1980s)" Crp="false" CrpStartYear="" CrpEndYear="" CrpType="" PreCrpManagement="" PreCrpTillage="" PostCrpManagement="" PostCrpTillage="" To2000Management="Non-Irrigated: Annual Crops in Rotation" To2000Tillage="Intensive Tillage"></HistoricManagement>
+    </Parcel>
+
+    <!--this provides the scenario information for the test-->
+    <CroplandsScenario Name="Baseline" CopyFromBaseline="false">
+      <ScenarioData ParcelName="F1" Years="All">
+
+        <CropAndPlant CropType="Rice - Flooded" PlantingDate="May 03" CoverCrop="false">
+          <Harvest Date="September 26" Grain="true" Yield="160" Straw="0"></Harvest>
+        </CropAndPlant>
+        <Tillage Date="September 29" Type="Intensive Tillage"></Tillage>
+        <NitrogenApplication Date="May 03" Type="Ammonium Nitrate" TotalApplied="100" Method="Fertigation" Eep="None"></NitrogenApplication>
+        <Irrigation Date="February 01" Applications="1" Inches="1" EndDate="February 10" Aerated="false"></Irrigation>
+        <Irrigation Date="May 03" Applications="1" Inches="1" EndDate="June 01" Aerated="true"></Irrigation>
+        <Irrigation Date="June 12" Applications="1" Inches="1" EndDate="July 12" Aerated="true"></Irrigation>
+        <Irrigation Date="July 30" Applications="1" Inches="1" EndDate="August 30" Aerated="false"></Irrigation>
+        <Burning Burn="No burning"></Burning>
+      </ScenarioData>
+
+    </CroplandsScenario>
+
+    <CroplandsScenario Name="Future" CopyFromBaseline="true">
+    </CroplandsScenario>
+
+  </CFarmCroplandsData>
+
+  <CFarmReportData>
+    <CroplandsReportScenario Name="Baseline">
+      <CroplandsReport ParcelName="F1" C="-63.1" Co2="0" Co="0" N2o="150.7" Ch4="732.3" Total="819.9"></CroplandsReport>
+    </CroplandsReportScenario> 
+  </CFarmReportData>
+
+</CFarmDatatable>

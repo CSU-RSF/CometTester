@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+  
+  <CFarmForestryData>
+    <ForestryParcel GpsCoordinates="34.351406, -89.621763" ParcelName="F1" PointAcres="" PolygonVertices="900,130,960,400,720,480,430,345,430,105" DragAdjust="400,100,100,100" PointAdjust="543,407" DragCount="1" Scroll="3">
+      <ForestryManagement ForestType="Oak-hickory" PastCover="Forest" Age="50" Volume="" Prescription="Grow only, no management activity" ActivityYears=""></ForestryManagement>
+    </ForestryParcel>
+  </CFarmForestryData>
+
+  <CFarmReportData>
+    <ForestryReportScenario>
+     <!-- <ForestryReport LiveTrees="5189.4" StandingDead="164.4" ForestFloor="372.6" Understory="153.4" DownedDeadWood="345.2" SoilOrganic="2115.2" ProductsInUse="0" InLandfills="0" Total="8340.3"></ForestryReport> -->
+      <ForestryReport TotalStandCarbon="346444.0" HarvestedCarbon="0.0" Total="346444.0"></ForestryReport>
+    </ForestryReportScenario>
+  </CFarmReportData>
+  
+</CFarmDatatable>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+  <CFarmCroplandsData>
+    <!--this grabs the parcel that is being tested-->
+    <Parcel GpsCoordinates="40.681211, -106.202385" ParcelName="F1" PointAcres="" PolygonVertices="311,71,332,58,360,52,376,65,396,85,411,91,428,76,440,93,466,117,509,139,555,152,578,166,601,185,682,321,706,364,724,405,746,432,784,481,780,514,749,509,724,484,692,491,659,496,621,486,578,468,527,451,500,438,459,422,417,387,346,349,339,311,190,220,199,180,312,181,298,157,288,129,311,133,328,118,324,108,311,71" DragAdjust="400,400,55,3" PointAdjust="" DragCount="3" Scroll="2">
+      <HistoricManagement Pre1980Management="Livestock Grazing" Crp="false" CrpStartYear="" CrpEndYear="" CrpType="" PreCrpManagement="" PreCrpTillage="" PostCrpManagement="" PostCrpTillage="" To2000Management="Irrigated: Continuous Hay" To2000Tillage="Intensive Tillage"></HistoricManagement>
+    </Parcel>
+    <!--this provides the scenario information for the test-->
+    <CroplandsScenario Name="Baseline" CopyFromFuture="false">
+      <ScenarioData ParcelName="F1" Years="2000">
+        <CropAndPlant CropType="Grass" PlantingDate="February 02" CoverCrop="false">
+          <Harvest Date="September 15" Grain="true" Yield="2" Straw="0"></Harvest>
+        </CropAndPlant>
+        <Tillage Date="March 30" Type="Intensive Tillage"></Tillage>
+        <NitrogenApplication Date="May 01" Type="Urea (46-00-00)" TotalApplied="150" Method="Surface Broadcast" Eep="Nitrification Inhibitor"></NitrogenApplication>
+        <Burning Burn="No burning"></Burning>
+      </ScenarioData>
+      
+      <ScenarioData ParcelName="F1" Years="2001,2002,2003,2004,2005,2006">
+        <CropAndPlant CropType="Grass" PlantingDate="February 02" CoverCrop="false">
+          <Harvest Date="September 15" Grain="true" Yield="2" Straw="0"></Harvest>
+        </CropAndPlant>
+        <Tillage Date="March 30" Type="Intensive Tillage"></Tillage>
+        <NitrogenApplication Date="May 01" Type="Urea (46-00-00)" TotalApplied="150" Method="Surface Broadcast" Eep="Nitrification Inhibitor"></NitrogenApplication>
+        <Burning Burn="No burning"></Burning>
+      </ScenarioData>
+
+      <ScenarioData ParcelName="F1" Years="2007">
+        <CropAndPlant CropType="Grass" PlantingDate="February 02" CoverCrop="false">
+          <Harvest Date="September 15" Grain="true" Yield="2" Straw="0"></Harvest>
+        </CropAndPlant>
+        <Tillage Date="March 30" Type="Intensive Tillage"></Tillage>
+        <NitrogenApplication Date="May 01" Type="Urea (46-00-00)" TotalApplied="150" Method="Surface Broadcast" Eep="Nitrification Inhibitor"></NitrogenApplication>
+        <Burning Burn="No burning"></Burning>
+      </ScenarioData>
+
+    <ScenarioData ParcelName="F1" Years="2008,2009,2010,2011,2012,2013,2015,2016,2017,2018">
+        <CropAndPlant CropType="Grass" PlantingDate="February 02" CoverCrop="false">
+          <Harvest Date="September 15" Grain="true" Yield="2" Straw="0"></Harvest>
+        </CropAndPlant>
+      <Tillage Date="March 30" Type="Intensive Tillage"></Tillage>
+        <NitrogenApplication Date="May 01" Type="Urea (46-00-00)" TotalApplied="150" Method="Surface Broadcast" Eep="Nitrification Inhibitor"></NitrogenApplication>
+        <Burning Burn="No burning"></Burning>
+      </ScenarioData>
+
+      <ScenarioData ParcelName="F1" Years="2014">
+        <CropAndPlant CropType="Grass" PlantingDate="February 02" CoverCrop="false">
+          <Harvest Date="September 15" Grain="true" Yield="2" Straw="0"></Harvest>
+        </CropAndPlant>
+        <Tillage Date="March 30" Type="Intensive Tillage"></Tillage>
+        <NitrogenApplication Date="May 01" Type="Urea (46-00-00)" TotalApplied="150" Method="Surface Broadcast" Eep="Nitrification Inhibitor"></NitrogenApplication>
+        <Burning Burn="No burning"></Burning>
+      </ScenarioData>
+      
+     
+    </CroplandsScenario>
+
+    <CroplandsScenario Name="Future" CopyFromBaseline="true">
+    </CroplandsScenario>
+
+  </CFarmCroplandsData>
+
+  <CFarmReportData>
+    <CroplandsReportScenario Name="Baseline">
+      <CroplandsReport ParcelName="F1" C="33.1" Co2="43.4" Co="0" N2o="305.9" Ch4="0" Total="382.5"></CroplandsReport>
+    </CroplandsReportScenario>
+
+
+  </CFarmReportData>
+
+</CFarmDatatable>

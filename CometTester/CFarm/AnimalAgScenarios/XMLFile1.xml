@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<CFarmDatatable>
+  
+  <CFarmAnimalAgData ZipCode="80631" PreferredUnits="Metric">
+    <AnimalType TypeName="Beef-Calves"></AnimalType>
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <HerdOrDiet Name="Default Diet">
+        <AnimalDetails Adfi="" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+          <AverageMonthlyCount PopName="Calves" Population="200"></AverageMonthlyCount>
+        </AnimalDetails>
+        <Weight Breed="" Tmw="" Abw="105" Adwg="2" Amw="350" ></Weight>
+        <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+        <HoursOfWork Hours="2"></HoursOfWork>
+        <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+        <TypesOfFeed>
+          <Feed FeedStuff="Barley" Category="Silage" Percent="70"></Feed>
+          <Feed FeedStuff="Bluegrass" Category="Straw" Percent="30"></Feed>
+        </TypesOfFeed>
+        <FeedingSituation Type="Pasture"></FeedingSituation>
+        <HousingDetails Type="" RoofedType="" Depth="" Mix="" DaysInHousing=""></HousingDetails>
+        <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+        <ManureSystemDetails>
+          <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+          <Composting Method=""></Composting>
+          <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+          <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+          <AnaerobicDigester Type=""></AnaerobicDigester>
+          <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+        </ManureSystemDetails>
+        <ManureDetails DryManureTotal="" PercentNitrogen=""></ManureDetails>
+      </HerdOrDiet>
+    </AnimalAgScenario>
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <HerdOrDiet></HerdOrDiet>
+    </AnimalAgScenario>
+  </CFarmAnimalAgData>
+  
+</CFarmDatatable>

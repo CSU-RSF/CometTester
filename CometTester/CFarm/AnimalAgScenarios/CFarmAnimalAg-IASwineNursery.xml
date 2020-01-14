@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+  <CFarmAnimalAgData ZipCode="50645" PreferredUnits="Metric" TypeList="Weaning Pigs">
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <AnimalType TypeName="Weaning Pigs">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="0.6" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="36" CrudeProtein="23.5" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="5" FinalBodyWeight="20" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="High-Moderate">
+            <AverageMonthlyCount PopName="Weaning Pigs" Population="100"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="" Tmw="" Abw="" Adwg="" Amw="" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="" Category="" Percent=""></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <HousingDetails Type="Roofed Facility" RoofedType="Pit Storage" DepthOrMix="Shallow" DaysInHousing="36"></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Land Applied" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal=".13" PercentNitrogen="9"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <AnimalType TypeName="">
+        <HerdOrDiet></HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+  </CFarmAnimalAgData>
+
+  <CFarmReportData>
+    <AnimalAgReportScenario>
+      <AnimalAgReport Name="Weaning Pigs" Methane="10.1" NitrousOxide=".3" Total="10.4"></AnimalAgReport>
+    </AnimalAgReportScenario>
+  </CFarmReportData>
+
+</CFarmDatatable>

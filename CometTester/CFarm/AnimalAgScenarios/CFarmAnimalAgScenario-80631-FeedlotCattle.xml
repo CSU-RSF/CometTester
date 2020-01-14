@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+  <CFarmAnimalAgData ZipCode="80631" PreferredUnits="Metric">
+    <AnimalType TypeName="Feedlot Cattle"></AnimalType>
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <HerdOrDiet Name="Default Diet">
+        <AnimalDetails>
+          <AverageMonthlyCount PopName="Heifers" Population="200"></AverageMonthlyCount>
+          <AverageMonthlyCount PopName="Steers" Population="200"></AverageMonthlyCount>
+        </AnimalDetails>
+        <Weight Breed="Angus" Tmw="" Abw="" Adwg="1.5" Amw="300" ></Weight>
+        <HoursOfWork Hours=""></HoursOfWork>
+        <FeedDetails Ionophores="Yes" FatContent="1% Supplemental Fat" GrainType="Unprocessed Or Dry rolled" ConcentratePercentage="45 to 60 percent grain"></FeedDetails>
+        <TypesOfFeed>
+          <Feed FeedStuff="" Category="" Percent=""></Feed>
+        </TypesOfFeed>
+        <FeedingSituation Type=""></FeedingSituation>
+        <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+        <ManureSystemDetails>
+          <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+          <Composting Method=""></Composting>
+          <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+          <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+          <AnaerobicDigester Type=""></AnaerobicDigester>
+          <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+        </ManureSystemDetails>
+        <ManureDetails DryManureTotal="" PercentNitrogen=""></ManureDetails>
+      </HerdOrDiet>
+      <HerdOrDiet Name="Diet 2">
+        <AnimalDetails>
+          <AverageMonthlyCount PopName="Heifers" Population="400"></AverageMonthlyCount>
+          <AverageMonthlyCount PopName="Steers" Population="400"></AverageMonthlyCount>
+        </AnimalDetails>
+        <Weight Breed="Angus" Tmw="" Abw="" Adwg="1.5" Amw="400" ></Weight>
+        <HoursOfWork Hours=""></HoursOfWork>
+        <FeedDetails Ionophores="Yes" FatContent="2% Supplemental Fat" GrainType="Steam Flaked Or High Moisture" ConcentratePercentage="More than 60 percent grain"></FeedDetails>
+        <TypesOfFeed>
+          <Feed FeedStuff="" Category="" Percent=""></Feed>
+        </TypesOfFeed>
+        <FeedingSituation Type=""></FeedingSituation>
+        <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+        <ManureSystemDetails>
+          <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+          <Composting Method=""></Composting>
+          <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+          <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+          <AnaerobicDigester Type=""></AnaerobicDigester>
+          <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+        </ManureSystemDetails>
+        <ManureDetails DryManureTotal="" PercentNitrogen=""></ManureDetails>
+      </HerdOrDiet>
+      <HerdOrDiet Name="Diet 3">
+        <AnimalDetails>
+          <AverageMonthlyCount PopName="Heifers" Population="100"></AverageMonthlyCount>
+          <AverageMonthlyCount PopName="Steers" Population="100"></AverageMonthlyCount>
+        </AnimalDetails>
+        <Weight Breed="Angus" Tmw="" Abw="" Adwg="1.5" Amw="450" ></Weight>
+        <HoursOfWork Hours=""></HoursOfWork>
+        <FeedDetails Ionophores="Yes" FatContent="2% Supplemental Fat" GrainType="Steam Flaked Or High Moisture" ConcentratePercentage="More than 60 percent grain"></FeedDetails>
+        <TypesOfFeed>
+          <Feed FeedStuff="" Category="" Percent=""></Feed>
+        </TypesOfFeed>
+        <FeedingSituation Type=""></FeedingSituation>
+        <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+        <ManureSystemDetails>
+          <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+          <Composting Method=""></Composting>
+          <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+          <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+          <AnaerobicDigester Type=""></AnaerobicDigester>
+          <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+        </ManureSystemDetails>
+        <ManureDetails DryManureTotal="" PercentNitrogen=""></ManureDetails>
+      </HerdOrDiet>
+      <HerdOrDiet Name="Diet 4">
+        <AnimalDetails>
+          <AverageMonthlyCount PopName="Heifers" Population="300"></AverageMonthlyCount>
+          <AverageMonthlyCount PopName="Steers" Population="300"></AverageMonthlyCount>
+        </AnimalDetails>
+        <Weight Breed="Angus" Tmw="" Abw="" Adwg="1.5" Amw="500" ></Weight>
+        <HoursOfWork Hours=""></HoursOfWork>
+        <FeedDetails Ionophores="Yes" FatContent="Four or higher added fat content" GrainType="Steam Flaked Or High Moisture" ConcentratePercentage="More than 60 percent grain"></FeedDetails>
+        <TypesOfFeed>
+          <Feed FeedStuff="" Category="" Percent=""></Feed>
+        </TypesOfFeed>
+        <FeedingSituation Type=""></FeedingSituation>
+        <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+        <ManureSystemDetails>
+          <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+          <Composting Method=""></Composting>
+          <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+          <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+          <AnaerobicDigester Type=""></AnaerobicDigester>
+          <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+        </ManureSystemDetails>
+        <ManureDetails DryManureTotal="" PercentNitrogen=""></ManureDetails>
+      </HerdOrDiet>
+    </AnimalAgScenario>
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <HerdOrDiet></HerdOrDiet>
+      <HerdOrDiet></HerdOrDiet>
+      <HerdOrDiet></HerdOrDiet>
+      <HerdOrDiet></HerdOrDiet>
+    </AnimalAgScenario>
+  </CFarmAnimalAgData>
+</CFarmDatatable>

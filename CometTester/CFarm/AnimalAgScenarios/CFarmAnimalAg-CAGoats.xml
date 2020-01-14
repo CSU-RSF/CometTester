@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<CFarmDatatable>
+
+  <CFarmAnimalAgData ZipCode="94952" PreferredUnits="Metric" TypeList="Goats">
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <AnimalType TypeName="Goats">
+      <HerdOrDiet Name="Default Diet">
+        <AnimalDetails Adfi="" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+          <AverageMonthlyCount PopName="Default Herd" Population="200"></AverageMonthlyCount>
+        </AnimalDetails>
+        <Weight Breed="" Tmw="" Abw="" Adwg="" Amw="" ></Weight>
+        <ManureSystemTypes Separator="false" PrimaryMethod="Deposited on Pasture/Range/Paddock" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+        <ManureSystemDetails>
+          <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+        </ManureSystemDetails>
+        <ManureDetails DryManureTotal="2" PercentNitrogen="2"></ManureDetails>
+      </HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+    
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <HerdOrDiet></HerdOrDiet>
+    </AnimalAgScenario>
+    
+  </CFarmAnimalAgData>
+
+  <CFarmReportData>
+    <AnimalAgReportScenario>
+      <AnimalAgReport Name="Goats" Methane="20.7" NitrousOxide="0" Total="20.7"></AnimalAgReport>
+    </AnimalAgReportScenario>
+  </CFarmReportData>
+
+</CFarmDatatable>

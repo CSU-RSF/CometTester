@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+
+  <CFarmAgroforestryData>
+    <AgroforestryLocation States="Iowa" County="Adair County"></AgroforestryLocation>
+    <AgroforestrySpecies SpeciesGroup="Maples" SpeciesName="Other maple" Dbh="12" Age="" TotalNumber="100"></AgroforestrySpecies>
+  </CFarmAgroforestryData>
+
+  <CFarmForestryData>
+    <ForestryParcel GpsCoordinates="34.351406, -89.621763" ParcelName="F1" PointAcres="" PolygonVertices="900,130,960,400,720,480,430,345,430,105" DragAdjust="400,100,100,100" PointAdjust="543,407" DragCount="1" Scroll="3">
+      <ForestryManagement ForestType="Oak-hickory" PastCover="Forest" Age="50" Volume="" Prescription="Grow only, no management activity" ActivityYears=""></ForestryManagement>
+    </ForestryParcel>
+  </CFarmForestryData>
+
+  <CFarmReportData>
+    <AgroforestryReportScenario>
+      <AgroforestryReport LiveTrees="10" DownedDeadWood=".2" ForestFloor=".4" StandingDeadTrees="1" Understory="0" Total="11.7"></AgroforestryReport>
+    </AgroforestryReportScenario>
+    <ForestryReportScenario>
+      <!--<ForestryReport LiveTrees="5189.4" StandingDead="164.4" ForestFloor="372.6" Understory="153.4" DownedDeadWood="345.2" SoilOrganic="2115.2" ProductsInUse="0" InLandfills="0" Total="8340.3"></ForestryReport>-->
+      <ForestryReport TotalStandCarbon="21.3" HarvestedCarbon="0.5" Total="25.1"></ForestryReport>
+    </ForestryReportScenario>
+  </CFarmReportData>
+
+</CFarmDatatable>

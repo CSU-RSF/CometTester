@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+  <CFarmAnimalAgData ZipCode="58572" PreferredUnits="Metric" TypeList="Beef-Heifer Replacements,Beef-Mature Cows/Cow-Calf,Bulls">
+
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <AnimalType TypeName="Beef-Heifer Replacements">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Beef-Heifer Replacements" Population="50"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="Beef-Heifer Replacements" Tmw="" Abw="350" Adwg="1" Amw="540" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours="0"></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Full Bloom" Percent="15"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Early Bloom" Percent="15"></Feed>
+            <Feed FeedStuff="Bluestem" Category="Fresh Mature" Percent="20"></Feed>
+            <Feed FeedStuff="Bromegrass" Category="Fresh Immature" Percent="20"></Feed>
+            <Feed FeedStuff="Fescue" Category="KY 31 Fresh" Percent="15"></Feed>
+            <Feed FeedStuff="Orchardgrass" Category="Fresh Early Bloom" Percent="10"></Feed>
+            <Feed FeedStuff="Timothy" Category="Fresh Pre-Bloom" Percent="5"></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type="Pasture"></FeedingSituation>
+          <HousingDetails Type="" RoofedType="" Depth="" Mix="" DaysInHousing=""></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Deposited on Pasture/Range/Paddock" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="2.4" PercentNitrogen="7"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+
+      <AnimalType TypeName="Beef-Mature Cows/Cow-Calf">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Beef-Mature Cows/Cow-Calf" Population="200"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="Beef-Mature Cows/Cow-Calf" Tmw="" Abw="500" Adwg="1" Amw="500" ></Weight>
+          <Pregnancy Pregnant="200" Lactating="100" MilkPerDay="15" FatContent="5"></Pregnancy>
+          <HoursOfWork Hours="0"></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Full Bloom" Percent="15"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Early Bloom" Percent="15"></Feed>
+            <Feed FeedStuff="Bluestem" Category="Fresh Mature" Percent="20"></Feed>
+            <Feed FeedStuff="Bromegrass" Category="Fresh Immature" Percent="20"></Feed>
+            <Feed FeedStuff="Fescue" Category="KY 31 Fresh" Percent="15"></Feed>
+            <Feed FeedStuff="Orchardgrass" Category="Fresh Early Bloom" Percent="10"></Feed>
+            <Feed FeedStuff="Timothy" Category="Fresh Pre-Bloom" Percent="5"></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type="Pasture"></FeedingSituation>
+          <HousingDetails Type="" RoofedType="" Depth="" Mix="" DaysInHousing=""></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Deposited on Pasture/Range/Paddock" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="6.6" PercentNitrogen="3"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+    
+      <AnimalType TypeName="Bulls">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Bulls" Population="11"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="Bulls" Tmw="" Abw="400" Adwg="" Amw="" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours="0"></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Full Bloom" Percent="15"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Early Bloom" Percent="15"></Feed>
+            <Feed FeedStuff="Bluegrass" Category="KY Fresh Early Bloom" Percent="20"></Feed>
+            <Feed FeedStuff="Bromegrass" Category="Fresh Immature" Percent="20"></Feed>
+            <Feed FeedStuff="Fescue" Category="KY 31 Fresh" Percent="15"></Feed>
+            <Feed FeedStuff="Orchardgrass" Category="Fresh Early Bloom" Percent="10"></Feed>
+            <Feed FeedStuff="Timothy" Category="Fresh Pre-Bloom" Percent="5"></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type="Pasture"></FeedingSituation>
+          <HousingDetails Type="" RoofedType="" Depth="" Mix="" DaysInHousing=""></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Deposited on Pasture/Range/Paddock" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="2.4" PercentNitrogen="7"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <HerdOrDiet></HerdOrDiet>
+    </AnimalAgScenario>
+    
+  </CFarmAnimalAgData>
+
+  <CFarmReportData>
+    <AnimalAgReportScenario>
+      <AnimalAgReport Name="Beef-Mature Cows/Cow-Calf" Methane="583.8" NitrousOxide="0" Total="583.8"></AnimalAgReport>
+      <AnimalAgReport Name="Beef-Heifer Replacements" Methane="86.7" NitrousOxide="0" Total="86.7"></AnimalAgReport>
+      <AnimalAgReport Name="Bulls" Methane="10.9" NitrousOxide="0" Total="10.9"></AnimalAgReport>
+    </AnimalAgReportScenario>
+  </CFarmReportData>
+  
+</CFarmDatatable>

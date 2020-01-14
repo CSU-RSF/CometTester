@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+  <CFarmAnimalAgData ZipCode="50645" PreferredUnits="Metric" TypeList="Grow-Finish Pigs">
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <AnimalType TypeName="Grow-Finish Pigs">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="2.5" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="105" CrudeProtein="21" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="76" FatFreeLeanPercentage="55" InitialBodyWeight="20" FinalBodyWeight="120" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Grow-Finish Pigs" Population="300"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="" Tmw="" Abw="" Adwg="" Amw="" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="" Category="" Percent=""></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <HousingDetails Type="Roofed Facility" RoofedType="Pit Storage" DepthOrMix="Deep" Mix="" DaysInHousing="105"></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="Uncovered Semi-Solid" StorageTerm="Short Term (less than six months)"></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal=".47" PercentNitrogen="8"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <HerdOrDiet></HerdOrDiet>
+    </AnimalAgScenario>
+  </CFarmAnimalAgData>
+
+  <CFarmReportData>
+    <AnimalAgReportScenario>
+      <AnimalAgReport Name="Grow-Finish Pigs" Methane="85.8" NitrousOxide="13.8" Total="99.5"></AnimalAgReport>
+    </AnimalAgReportScenario>
+  </CFarmReportData>
+
+</CFarmDatatable>

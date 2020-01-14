@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+  <CFarmForestryData>
+    <ForestryParcel GpsCoordinates="34.351406, -89.621763" ParcelName="F1" PointAcres="" PolygonVertices="900,130,960,400,720,480,430,345,430,105" DragAdjust="400,100,100,100" PointAdjust="543,407" DragCount="1">
+      <ForestryManagement ForestType="Oak-hickory" PastCover="Forest" Age="50" Volume="" Prescription="Grow only, no management activity" ActivityYears=""></ForestryManagement>
+    </ForestryParcel>
+  </CFarmForestryData>
+</CFarmDatatable>

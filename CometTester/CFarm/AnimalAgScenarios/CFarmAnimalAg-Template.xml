@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+  <CFarmAnimalAgData ZipCode="" PreferredUnits="" TypeList="">
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <AnimalType TypeName="">
+        <HerdOrDiet Name="Default Diet">
+          <AnimalDetails Adfi="" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="" Population=""></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="" Tmw="" Abw="" Adwg="" Amw="" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="" Category="" Percent=""></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <HousingDetails Type="" RoofedType="" Depth="" Mix="" DaysInHousing=""></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="" PercentNitrogen=""></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <HerdOrDiet></HerdOrDiet>
+    </AnimalAgScenario>
+  </CFarmAnimalAgData>
+
+  <CFarmReportData>
+    <AnimalAgReportScenario>
+      <AnimalAgReport Name="" Methane="" NitrousOxide="" Total=""></AnimalAgReport>
+    </AnimalAgReportScenario>
+  </CFarmReportData>
+
+</CFarmDatatable>

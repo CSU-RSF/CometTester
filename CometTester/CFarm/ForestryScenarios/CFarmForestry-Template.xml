@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+  
+  <CFarmForestryData>
+    <ForestryParcel GpsCoordinates="" ParcelName="" PointAcres="" PolygonVertices="" DragAdjust="" PointAdjust="" DragCount="">
+      <ForestryManagement ForestType="" PastCover="" Age="" Volume="" Prescription="" ActivityYears=""></ForestryManagement>
+    </ForestryParcel>
+  </CFarmForestryData>
+
+  <CFarmReportData>
+    <ForestryReport LiveTrees="" StandingDead="" ForestFloor="" Understory="" DownedDeadWood="" SoilOrganic="" ProductsInUse="" InLandfills="" Total=""></ForestryReport>
+  </CFarmReportData>
+  
+</CFarmDatatable>

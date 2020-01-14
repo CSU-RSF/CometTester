@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+  <CFarmAnimalAgData ZipCode="87825" PreferredUnits="Metric" TypeList="Flock Sheep">
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <AnimalType TypeName="Flock Sheep">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="0" Abw="73" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Flock Sheep" Population="2000"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="" Tmw="" Abw="" Adwg="" Amw="" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="Clover" Category="Red Fresh" Percent="20"></Feed>
+            <Feed FeedStuff="Orchardgrass" Category="Fresh Early Bloom" Percent="20"></Feed>
+            <Feed FeedStuff="Sagebrush" Category="Fresh" Percent="20"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Early Bloom" Percent="20"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Full Bloom" Percent="20"></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <HousingDetails Type="" RoofedType="" DepthOrMix="" DaysInHousing=""></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Deposited on Pasture/Range/Paddock" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="0" PercentNitrogen="0"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <HerdOrDiet></HerdOrDiet>
+    </AnimalAgScenario>
+  </CFarmAnimalAgData>
+
+  <CFarmReportData>
+    <AnimalAgReportScenario>
+      <AnimalAgReport Methane="438.9" NitrousOxide="0" Total="438.9"></AnimalAgReport>
+    </AnimalAgReportScenario>
+  </CFarmReportData>
+
+</CFarmDatatable>

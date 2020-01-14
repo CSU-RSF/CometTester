@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+  <CFarmCroplandsData>
+    <Parcel GpsCoordinates="34.50644, -91.469762" ParcelName="F1" PointAcres="" PolygonVertices="138,108,1023,126,1020,510,128,498" DragAdjust="400,400,100,-60" PointAdjust="" DragCount="4" Scroll="-2">
+      <HistoricManagement Pre1980Management="Lowland Non-Irrigated (Pre 1980s)" Crp="false" CrpStartYear="" CrpEndYear="" CrpType="" PreCrpManagement="" PreCrpTillage="" PostCrpManagement="" PostCrpTillage="" To2000Management="Non-Irrigated: Corn-Cotton" To2000Tillage="Intensive Tillage"></HistoricManagement>
+    </Parcel>
+    <CroplandsScenario Name="Baseline" CopyFromFuture="false">
+      <ScenarioData ParcelName="F1" Years="2000,2001,2002,2005,2008">
+        <CropAndPlant CropType="Rice - Flooded" PlantingDate="May 03" CoverCrop="false">
+          <Harvest Date="September 26" Grain="true" Yield="160" Straw="0"></Harvest>
+        </CropAndPlant>
+        <Tillage Date="September 29" Type="Intensive Tillage"></Tillage>
+        <NitrogenApplication Date="May 03" Type="Ammonium Nitrate" TotalApplied="100" Method="Fertigation" Eep="None"></NitrogenApplication>
+        <Irrigation Date="February 01" Inches="1" EndDate="February 10" Aerated="false"></Irrigation>
+        <Irrigation Date="May 03" Inches="1" EndDate="June 01" Aerated="true"></Irrigation>
+        <Irrigation Date="June 12" Inches="1" EndDate="July 12" Aerated="true"></Irrigation>
+        <Irrigation Date="July 30" Inches="1" EndDate="August 30" Aerated="false"></Irrigation>
+        <Burning Burn="No burning"></Burning>
+      </ScenarioData>
+      <ScenarioData ParcelName="F1" Years="2003,2004,2006,2007,2009,2010,2011,2012,2013,2014,2015">
+        <CropAndPlant CropType="Rice - Flooded" PlantingDate="May 03" CoverCrop="false">
+          <Harvest Date="September 26" Grain="true" Yield="160" Straw="0"></Harvest>
+        </CropAndPlant>
+        <Tillage Date="September 29" Type="Intensive Tillage"></Tillage>
+        <NitrogenApplication Date="May 03" Type="Ammonium Nitrate" TotalApplied="100" Method="Fertigation" Eep="None"></NitrogenApplication>
+        <Irrigation Date="February 01" Inches="1" EndDate="February 10" Aerated="false"></Irrigation>
+        <Irrigation Date="May 03" Inches="2" EndDate="June 01" Aerated="true"></Irrigation>
+        <Irrigation Date="June 12" Inches="3" EndDate="July 12" Aerated="true"></Irrigation>
+        <Irrigation Date="July 30" Inches="4" EndDate="August 30" Aerated="false"></Irrigation>
+        <Burning Burn="No burning"></Burning>
+      </ScenarioData>
+    </CroplandsScenario>
+    <CroplandsScenario Name="Future" CopyFromBaseline="true">
+    </CroplandsScenario>
+  </CFarmCroplandsData>
+
+  <CFarmReportData>
+    <CroplandsReport C="-62.4" Co2="0" Co="0" N2o="150.5" Ch4="732.3" Total="820.4"></CroplandsReport>
+  </CFarmReportData>
+
+</CFarmDatatable>

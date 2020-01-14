@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+  <CFarmAnimalAgData ZipCode="95301" PreferredUnits="Metric" TypeList="Dairy-Heifer Replacements,Dairy-Dry Cows,Dairy-Lactating Cows">
+
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <AnimalType TypeName="Dairy-Heifer Replacements">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="25" Abw="620" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Roofed Facility" Population="1000"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="" Tmw="" Abw="" Adwg="" Amw="" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="Alfalfa" Category="Cubes" Percent="100"></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <HousingDetails Type="Roofed Facility" RoofedType="Flushed Or Scraped" DepthOrMix="Deep" AreaOfBarn="1000" DaysInHousing="100"></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Anaerobic lagoon, liquid/slurry storage pond, storage tanks" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="Uncovered Without Crust" Area="10000" Date="2014" StorageLength="12-month" SolidRemoval="100"></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="3.7" PercentNitrogen="3"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+   
+
+
+  
+      <AnimalType TypeName="Dairy-Dry Cows">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="25" Abw="600" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Roofed Facility" Population="1000"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="" Tmw="" Abw="" Adwg="" Amw="" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="Alfalfa" Category="Cubes" Percent="100"></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <HousingDetails Type="Roofed Facility" RoofedType="Flushed Or Scraped" DepthOrMix="" AreaOfBarn="100" DaysInHousing=""></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Anaerobic lagoon, liquid/slurry storage pond, storage tanks" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="4.9" PercentNitrogen="5"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+  
+
+
+   
+      <AnimalType TypeName="Dairy-Lactating Cows">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="25" Abw="620" DaysInMilk="300" MilkPerDay="25" DaysOnFeed="25" CrudeProtein="25" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Roofed Facility" Population="2000"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="" Tmw="" Abw="" Adwg="" Amw="" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="Alfalfa" Category="Cubes" Percent="100"></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <HousingDetails Type="Roofed Facility" RoofedType="Flushed Or Scraped" DepthOrMix="" AreaOfBarn="1000" DaysInHousing=""></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Anaerobic lagoon, liquid/slurry storage pond, storage tanks" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="8.9" PercentNitrogen="5"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <AnimalType>
+        <HerdOrDiet></HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+  </CFarmAnimalAgData>
+
+  <CFarmReportData>
+    <AnimalAgReportScenario>
+      <AnimalAgReport Name="Dairy-Heifer Replacements" Methane="7201.5" NitrousOxide="0" Total="7201.5"></AnimalAgReport>
+      <AnimalAgReport Name="Dairy-Dry Cows" Methane="8479.1" NitrousOxide="0" Total="8479.1"></AnimalAgReport>
+      <AnimalAgReport Name="Dairy-Lactating Cows" Methane="25602.4" NitrousOxide="0" Total="25602.4"></AnimalAgReport>
+    </AnimalAgReportScenario>
+  </CFarmReportData>
+
+</CFarmDatatable>

@@ -1,0 +1,95 @@
+﻿<Window x:Class="CometTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:cometTester="clr-namespace:CometTester"
+        Title="CometTester" Height="412.8" Width="659" 
+        Background="LightSlateGray"
+        FontSize="16"
+        FontFamily="Calibri"
+        >
+    <Canvas Name="TesterCanvas" Background="WhiteSmoke" Margin="6,6,7,7">
+        <Canvas.Effect>
+            <DropShadowEffect BlurRadius="20" Direction="-90" RenderingBias="Quality" ShadowDepth="5"/>
+        </Canvas.Effect>
+
+        <TextBlock Canvas.Left="10" Canvas.Top="10" FontWeight="SemiBold">Select Browser</TextBlock>
+        <ComboBox Text="Browser" Canvas.Left="10" Canvas.Top="31" Width="116" SelectionChanged="WebBrowser_Click">
+            <ComboBoxItem Name="cbi1">Firefox</ComboBoxItem>
+            <ComboBoxItem Name="cbi2">Microsoft Edge</ComboBoxItem>
+            <ComboBoxItem Name="cbi3">Chrome</ComboBoxItem>
+            <ComboBoxItem Name="cbi4">All</ComboBoxItem>
+        </ComboBox>
+        <TextBlock Canvas.Left="399" Canvas.Top="10" FontWeight="SemiBold">Address</TextBlock>
+        <RichTextBox Height="24" Canvas.Left="457" Canvas.Top="10" MaxWidth="463" x:Name="SiteAddress" IsReadOnly="False" RenderTransformOrigin="-0.042,12.009" Width="171">
+            <FlowDocument>
+                <Paragraph >
+                    <Run Text="" />
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Canvas Name="FileCanvas" Height="412.8" Width="659" Opacity=".3" IsEnabled="false">
+            <TextBlock Canvas.Left="162" Canvas.Top="10" FontWeight="SemiBold">Select Test</TextBlock>
+            <ComboBox Text="Is not open" Canvas.Left="162" Canvas.Top="31" Width="188" Name="SelectTestComboBox">
+                <ComboBoxItem Name="cbia" Selected="WhichTest_Click">CFarmCroplands</ComboBoxItem>
+                <ComboBoxItem Name="cbib" Selected="WhichTest_Click">CFarmAnimalAg</ComboBoxItem>
+                <ComboBoxItem Name="cbic" Selected="WhichTest_Click">CFarmAgroforestry</ComboBoxItem>
+                <ComboBoxItem Name="cbid" Selected="WhichTest_Click">CFarmForestry</ComboBoxItem>
+                <ComboBoxItem Name="cbie" Selected="WhichTest_Click">CFarmComprehensive</ComboBoxItem>
+                <ComboBoxItem Name="bbia" Selected="BfuelComprehensive_Click">BfuelComprehensive</ComboBoxItem>
+                <ComboBoxItem Name="cbif" Selected="WhichTest_Click">All Cfarm Tests</ComboBoxItem>
+            </ComboBox>
+
+            <Button x:Name="AddXmlFile" Height="24" Width="120"
+        	Canvas.Left="488" Canvas.Top="114"
+        	Content="Add File"                
+        	VerticalAlignment="Top"
+        	HorizontalAlignment="Left"
+        	Click="AddXmlFile_Click"/>
+            <Button x:Name="RemoveXmlFile" Height="24" Width="120" Opacity=".3" IsEnabled="false"
+        	Canvas.Left="488" Canvas.Top="144"
+        	Content="Remove File"                
+        	VerticalAlignment="Top"
+        	HorizontalAlignment="Left"
+        	Click="RemoveXmlFile_Click"/>
+            <Button x:Name="Browse0" Height="24" Width="120"
+        	Canvas.Left="488" Canvas.Top="84"
+        	Content="Browse"                
+        	VerticalAlignment="Top"
+        	HorizontalAlignment="Left"
+        	Click="BrowseFile_Click"/>
+
+            <RichTextBox Height="24" Canvas.Left="10" Canvas.Top="84" MaxWidth="463" x:Name="XmlPathText0" IsReadOnly="True">
+                <FlowDocument>
+                    <Paragraph >
+                        <Run Text="" />
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <TextBlock Canvas.Left="246" Canvas.Top="59" FontWeight="SemiBold"><Run Text="OR"/></TextBlock>
+        </Canvas>
+
+        <Canvas Name="RunCanvas" Height="413" Width="659" Opacity=".3" IsEnabled="false">
+            <Button x:Name="RunTest" Height="24" Width="120"
+                Canvas.Left="10" Canvas.Top="324"
+                Content="Run Test"                
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Click="RunTest_Click"/>
+
+            <!--<Popup x:Name="MyPopup" Width="120" Height="30"  VerticalAlignment="Top"
+                HorizontalAlignment="Left" Canvas.Left="460" Canvas.Top="320">-->
+                <Button Name="ExportButton"   
+             Background="LightBlue" Visibility="Collapsed" Click="Export_Click" Canvas.Left="460" Canvas.Top="325" Height="24" Width="120">Export</Button>
+            <!--</Popup>-->
+                <Button x:Name="ScheduleTest" Height="24" Width="120"
+        	Canvas.Left="303" Canvas.Top="324"
+        	Content="Schedule Test"                
+        	VerticalAlignment="Top"
+        	HorizontalAlignment="Left"
+        	Click="ScheduleTest_Click"/>
+            <TextBox Name="ScheduleHour" Height="24" Canvas.Left="230" Canvas.Top="324" Width="27" PreviewTextInput="PreviewTextInput" IsReadOnly="False" Text="23" MaxLength="2"></TextBox>
+            <TextBlock Canvas.Left="260" Canvas.Top="325" FontWeight="SemiBold"><Run Text=":"/></TextBlock>
+            <TextBox Name="ScheduleMin" Height="24" Canvas.Left="267" Canvas.Top="324" Width="27" PreviewTextInput="PreviewTextInput" IsReadOnly="False" Text="30" MaxLength="2"></TextBox>
+            <TextBlock Canvas.Left="173" Canvas.Top="325" FontWeight="SemiBold"><Run Text="OR"/></TextBlock>
+        </Canvas>
+    </Canvas>
+</Window>

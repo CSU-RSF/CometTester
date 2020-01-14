@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<CFarmDatatable>
+  <CFarmAgroforestryData>
+    <AgroforestryLocation States="Iowa" County="Adair County"></AgroforestryLocation>
+    <AgroforestrySpecies SpeciesGroup="Maples" SpeciesName="Other maple" Dbh="12" Age="" TotalNumber="100"></AgroforestrySpecies>
+  </CFarmAgroforestryData>
+</CFarmDatatable>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+  <CFarmAnimalAgData ZipCode="75411" PreferredUnits="Metric" TypeList="Beef-Heifer Stockers,Beef-Steer Stockers">
+
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <AnimalType TypeName="Beef-Heifer Stockers">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Beef-Heifer Stockers" Population="500"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="Beef-Heifer Stockers" Tmw="" Abw="300" Adwg="1" Amw="550" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours="0"></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="Bluestem" Category="Fresh Mature" Percent="14"></Feed>
+            <Feed FeedStuff="Fescue" Category="KY 31 Fresh" Percent="14"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Full Bloom" Percent="14"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Early Bloom" Percent="14"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Hay" Percent="16"></Feed>
+            <Feed FeedStuff="Sorghum" Category="Stover" Percent="14"></Feed>
+            <Feed FeedStuff="Sudangrass" Category="Fresh Immature" Percent="14"></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type="Pasture"></FeedingSituation>
+          <HousingDetails Type="" RoofedType="" Depth="" Mix="" DaysInHousing=""></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Deposited on Pasture/Range/Paddock" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="" StorageTerm=""></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="2.4" PercentNitrogen="7"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+
+
+
+      <AnimalType TypeName="Beef-Steer Stockers">
+        <HerdOrDiet Name="Default Herd">
+          <AnimalDetails Adfi="" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="" AverageEggWeight="" EggsPerDay="" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Beef-Steer Stockers" Population="250"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="Beef-Steer Stockers" Tmw="" Abw="300" Adwg="1" Amw="500" ></Weight>
+          <Pregnancy Pregnant="" Lactating="" MilkPerDay="" FatContent=""></Pregnancy>
+          <HoursOfWork Hours="0"></HoursOfWork>
+          <FeedDetails Ionophores="" FatContent="" GrainType="" ConcentratePercentage=""></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="Bluestem" Category="Fresh Mature" Percent="14"></Feed>
+            <Feed FeedStuff="Fescue" Category="KY 31 Fresh" Percent="14"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Full Bloom" Percent="14"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Fresh Early Bloom" Percent="14"></Feed>
+            <Feed FeedStuff="Sorghum" Category="Stover" Percent="14"></Feed>
+            <Feed FeedStuff="Sudangrass" Category="Fresh Immature" Percent="14"></Feed>
+            <Feed FeedStuff="Wheatgrass" Category="Crested Hay" Percent="16"></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type="Pasture"></FeedingSituation>
+          <HousingDetails Type="" RoofedType="" Depth="" Mix="" DaysInHousing=""></HousingDetails>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Deposited on Pasture/Range/Paddock" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="2.4" PercentNitrogen="7"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <HerdOrDiet></HerdOrDiet>
+    </AnimalAgScenario>
+
+  </CFarmAnimalAgData>
+
+  <CFarmReportData>
+    <AnimalAgReportScenario>
+      <AnimalAgReport Name="Beef-Heifer Stockers" Methane="785.5" NitrousOxide="0" Total="785.5"></AnimalAgReport>
+      <AnimalAgReport Name="Beef-Steer Stockers" Methane="374.4" NitrousOxide="0" Total="374.4"></AnimalAgReport>
+    </AnimalAgReportScenario>
+  </CFarmReportData>
+
+</CFarmDatatable>

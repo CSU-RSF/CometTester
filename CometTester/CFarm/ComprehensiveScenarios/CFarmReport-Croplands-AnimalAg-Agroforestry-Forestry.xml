@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+  <CFarmReportData>
+    <CroplandsReport C="" Co2="" Co="" N2o="" Ch4="" Total=""></CroplandsReport>
+    <AnimalAgReport Methane="" NitrousOxide="" Total=""></AnimalAgReport>
+    <AgroforestryReport LiveTrees="" DownedDeadWood="" ForestFloor="" StandingDeadTrees="" Understory="" Total=""></AgroforestryReport>
+    <ForestryReport LiveTrees="" StandingDead="" ForestFloor="" Understory="" DownedDeadWood="" SoilOrganic="" ProductsInUse="" InLandfills="" Total=""></ForestryReport>
+  </CFarmReportData>
+</CFarmDatatable>

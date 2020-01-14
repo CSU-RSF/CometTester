@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+  
+  <CFarmCroplandsData>
+    <Parcel GpsCoordinates="" ParcelName="" PointAcres="" PolygonVertices="" DragAdjust="" PointAdjust="" DragCount="" Scroll="">
+      <HistoricManagement Pre1980Management="" Crp="false" CrpStartYear="" CrpEndYear="" CrpType="" PreCrpManagement="" PreCrpTillage="" PostCrpManagement="" PostCrpTillage="" To2000Management="" To2000Tillage=""></HistoricManagement>
+    </Parcel>
+    <CroplandsScenario Name="Baseline" CopyFromBaseline="false">
+      <ScenarioData ParcelName="F1" Years="All">
+        <CropAndPlant CropType="" PlantingDate="" CoverCrop="false">
+          <Harvest Date="" Grain="" Yield="" Straw=""></Harvest>
+          <Grazing StartDate="" EndDate="" RestPeriod="" Utilization=""></Grazing>
+        </CropAndPlant>
+        <Tillage Date="" Type=""></Tillage>
+        <NitrogenApplication Date="" Type="" TotalApplied="" Method="" Eep=""></NitrogenApplication>
+        <ManureApplication Date="" Type="" AmountApplied="" PercentN="" CToNRatio=""></ManureApplication>
+        <Irrigation Date="" Inches="" DateEnd="" Aerated=""></Irrigation>
+        <Liming Date="" Material="" AmountApplied=""></Liming>
+        <Burning Burn=""></Burning>
+      </ScenarioData>
+    </CroplandsScenario>
+    <CroplandsScenario Name="Future" CopyFromBaseline="true">
+    </CroplandsScenario>
+  </CFarmCroplandsData>
+
+  <CFarmReportData>
+    <CroplandsReport C="" Co2="" Co="" N2o="" Ch4="" Total=""></CroplandsReport>
+  </CFarmReportData>
+  
+</CFarmDatatable>
+

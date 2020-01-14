@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+
+  <CFarmAnimalAgData ZipCode="50101" PreferredUnits="Metric" TypeList="Laying Hens">
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <AnimalType TypeName="Laying Hens">
+        <HerdOrDiet Name="Default Diet">
+          <AnimalDetails Adfi="93" Abw="" DaysInMilk="" MilkPerDay="" DaysOnFeed="" CrudeProtein="18" AverageEggWeight="62" EggsPerDay=".8" GestationLength="" LitterSize="" DressingPercentage="" FatFreeLeanPercentage="" InitialBodyWeight="" FinalBodyWeight="" LactationLength="" LitterWeightAtBirth="" LitterWeightAtWeaning="" GrowthCapacity="">
+            <AverageMonthlyCount PopName="Default Flock" Population="25000"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="" Tmw="" Abw="" Adwg="" Amw="" ></Weight>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal=".02" PercentNitrogen="7"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <HerdOrDiet></HerdOrDiet>
+    </AnimalAgScenario>
+  </CFarmAnimalAgData>
+
+  <CFarmReportData>
+    <AnimalAgReportScenario>
+      <AnimalAgReport Name="Laying Hens" Methane="10.8" NitrousOxide="17.2" Total="28.1"></AnimalAgReport>
+    </AnimalAgReportScenario>
+  </CFarmReportData>
+
+</CFarmDatatable>

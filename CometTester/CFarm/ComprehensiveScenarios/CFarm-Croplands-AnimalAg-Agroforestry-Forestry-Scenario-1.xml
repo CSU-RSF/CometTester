@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+  
+  <CFarmCroplandsData>
+    <Parcel GpsCoordinates="40.381856, -101.708146" ParcelName="F1" PointAcres="129" PolygonVertices="" DragAdjust="400,400,000,500" PointAdjust="543,407" DragCount="1" Scroll="5">
+      <HistoricManagement Pre1980Management="Irrigation (Pre 1980s)" Crp="false" CrpStartYear="" CrpEndYear="" CrpType="" PreCrpManagement="" PreCrpTillage="" PostCrpManagement="" PostCrpTillage="" To2000Management="Irrigated: Annual Crops with Hay/Pasture in Rotation" To2000Tillage="Intensive Tillage"></HistoricManagement>
+    </Parcel>
+    <CroplandsScenario Name="Baseline" CopyFromBaseline="false">
+      <ScenarioData ParcelName="F1" Years="All">
+        <CropAndPlant CropType="Corn" PlantingDate="May 03" CoverCrop="false">
+          <Harvest Date="October 15" Grain="false" Yield="235" Straw="70"></Harvest>
+        </CropAndPlant>
+        <Tillage Date="April 30" type="Intensive Tillage"></Tillage>
+        <NitrogenApplication Date="May 01" Type="Urea" TotalApplied="200" Method="Incorporate / Inject" Eep="None"></NitrogenApplication>
+        <Irrigation Date="May 31" Inches="1" EndDate="" Aerated="false"></Irrigation>
+        <Irrigation Date="June 30" Inches="1" EndDate="" Aerated="false"></Irrigation>
+        <Irrigation Date="July 31" Inches="1" EndDate="" Aerated="false"></Irrigation>
+        <Irrigation Date="August 31" Inches="1" EndDate="" Aerated="false"></Irrigation>
+        <Irrigation Date="September 30" Inches="1" EndDate="" Aerated="false"></Irrigation>
+      </ScenarioData>
+    </CroplandsScenario>
+    <CroplandsScenario Name="Future" CopyFromBaseline="true">
+    </CroplandsScenario>
+  </CFarmCroplandsData>
+
+  <CFarmAnimalAgData ZipCode="80631" PreferredUnits="Metric" TypeList="Feedlot Cattle">
+
+    <AnimalAgScenario Name="Baseline" CopyFromFuture="false">
+      <AnimalType TypeName="Feedlot Cattle">
+        <HerdOrDiet Name="Default Diet">
+          <AnimalDetails>
+            <AverageMonthlyCount PopName="Heifers" Population="200"></AverageMonthlyCount>
+            <AverageMonthlyCount PopName="Steers" Population="200"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="Angus" Tmw="512" Abw="" Adwg="1.5" Amw="300" ></Weight>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="Yes" FatContent="1% Supplemental Fat" GrainType="Unprocessed Or Dry rolled" ConcentratePercentage="45 to 60 percent grain"></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="" Category="" Percent=""></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="2.4" PercentNitrogen="7"></ManureDetails>
+        </HerdOrDiet>
+        <HerdOrDiet Name="Diet 2">
+          <AnimalDetails>
+            <AverageMonthlyCount PopName="Heifers" Population="400"></AverageMonthlyCount>
+            <AverageMonthlyCount PopName="Steers" Population="400"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="Angus" Tmw="512" Abw="" Adwg="1.5" Amw="400" ></Weight>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="Yes" FatContent="2% Supplemental Fat" GrainType="Steam Flaked Or High Moisture" ConcentratePercentage="More than 60 percent grain"></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="" Category="" Percent=""></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="2.4" PercentNitrogen="7"></ManureDetails>
+        </HerdOrDiet>
+        <HerdOrDiet Name="Diet 3">
+          <AnimalDetails>
+            <AverageMonthlyCount PopName="Heifers" Population="100"></AverageMonthlyCount>
+            <AverageMonthlyCount PopName="Steers" Population="100"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="Angus" Tmw="512" Abw="" Adwg="1.5" Amw="450" ></Weight>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="Yes" FatContent="2% Supplemental Fat" GrainType="Steam Flaked Or High Moisture" ConcentratePercentage="More than 60 percent grain"></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="" Category="" Percent=""></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="2.4" PercentNitrogen="7"></ManureDetails>
+        </HerdOrDiet>
+        <HerdOrDiet Name="Diet 4">
+          <AnimalDetails>
+            <AverageMonthlyCount PopName="Heifers" Population="300"></AverageMonthlyCount>
+            <AverageMonthlyCount PopName="Steers" Population="300"></AverageMonthlyCount>
+          </AnimalDetails>
+          <Weight Breed="Angus" Tmw="512" Abw="" Adwg="1.5" Amw="500" ></Weight>
+          <HoursOfWork Hours=""></HoursOfWork>
+          <FeedDetails Ionophores="Yes" FatContent="Four or higher added fat content" GrainType="Steam Flaked Or High Moisture" ConcentratePercentage="More than 60 percent grain"></FeedDetails>
+          <TypesOfFeed>
+            <Feed FeedStuff="" Category="" Percent=""></Feed>
+          </TypesOfFeed>
+          <FeedingSituation Type=""></FeedingSituation>
+          <ManureSystemTypes Separator="false" PrimaryMethod="Temporary Stack and Long-Term Stockpile" SeparatorType="" SolidMethod="" LiquidMethod=""></ManureSystemTypes>
+          <ManureSystemDetails>
+            <TemporaryStackAndLongTermStockpile CoverType="Uncovered Solid" StorageTerm="Long Term (more than six months)"></TemporaryStackAndLongTermStockpile>
+            <Composting Method=""></Composting>
+            <AnaerobicLagoon CoverType="" Area="" Date="" StorageLength="" SolidRemoval=""></AnaerobicLagoon>
+            <AerobicLagoon Volume="" Aeration=""></AerobicLagoon>
+            <AnaerobicDigester Type=""></AnaerobicDigester>
+            <CombinedAerobicTreatment CoverType="" Area=""></CombinedAerobicTreatment>
+          </ManureSystemDetails>
+          <ManureDetails DryManureTotal="2.4" PercentNitrogen="7"></ManureDetails>
+        </HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+    <AnimalAgScenario Name="Future" CopyFromFuture="true">
+      <AnimalType>
+        <HerdOrDiet></HerdOrDiet>
+        <HerdOrDiet></HerdOrDiet>
+        <HerdOrDiet></HerdOrDiet>
+        <HerdOrDiet></HerdOrDiet>
+      </AnimalType>
+    </AnimalAgScenario>
+  </CFarmAnimalAgData>
+  
+  <CFarmAgroforestryData>
+    <AgroforestryLocation States="Iowa" County="Adair County"></AgroforestryLocation>
+    <AgroforestrySpecies SpeciesGroup="Maples" SpeciesName="Other maple" Dbh="12" Age="" TotalNumber="100"></AgroforestrySpecies>
+  </CFarmAgroforestryData>
+  
+  <CFarmForestryData>
+    <ForestryParcel GpsCoordinates="34.351406, -89.621763" ParcelName="F1" PointAcres="" PolygonVertices="900,130,960,400,720,480,430,345,430,105" DragAdjust="400,100,100,100" PointAdjust="543,407" DragCount="1" Scroll="2">
+      <ForestryManagement ForestType="" PastCover="Forest" Age="50" Volume="" Prescription="Grow only, no management activity" ActivityYears=""></ForestryManagement>
+    </ForestryParcel>
+  </CFarmForestryData>
+
+  <CFarmReportData>
+    <CroplandsReportScenario Name="Baseline">
+        <CroplandsReport C="2.2" Co2="18.7" Co="0" N2o="63.8" Ch4="0" Total="84.6"></CroplandsReport>
+    </CroplandsReportScenario>
+    <AnimalAgReportScenario>
+        <AnimalAgReport Methane="1764.2" NitrousOxide="119.8" Total="1884"></AnimalAgReport>
+    </AnimalAgReportScenario>
+      <AgroforestryReportScenario>
+        <AgroforestryReport LiveTrees="10" DownedDeadWood=".2" ForestFloor=".4" StandingDeadTrees="1" Understory="0" Total="11.7"></AgroforestryReport>
+      </AgroforestryReportScenario>
+      <ForestryReportScenario>
+        <ForestryReport LiveTrees="5189.4" StandingDead="164.4" ForestFloor="372.6" Understory="153.4" DownedDeadWood="345.2" SoilOrganic="2115.2" ProductsInUse="0" InLandfills="0" Total="8340.3"></ForestryReport>
+      </ForestryReportScenario>
+  </CFarmReportData>
+  
+</CFarmDatatable>

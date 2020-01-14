@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CFarmDatatable>
+  <CFarmCroplandsData>
+    <!--this grabs the parcel that is being tested-->
+    <Parcel GpsCoordinates="40.381856, -101.708146" ParcelName="F1" PointAcres="129" PolygonVertices="" DragAdjust="400,400,000,100" PointAdjust="544,409" DragCount="5" Scroll="4">
+
+      <HistoricManagement Pre1980Management="Irrigation (Pre 1980s)" Crp="false" CrpStartYear="" CrpEndYear="" CrpType="" PreCrpManagement="" PreCrpTillage="" PostCrpManagement="" PostCrpTillage="" To2000Management="Irrigated: Annual Crops in Rotation" To2000Tillage="Intensive Tillage"></HistoricManagement>
+
+      <HistoricManagement Pre1980Management="Irrigation (Pre 1980s)" Crp="false" CrpStartYear="" CrpEndYear="" CrpType="" PreCrpManagement="" PreCrpTillage="" PostCrpManagement="" PostCrpTillage="" To2000Management="Irrigated: 2 Yrs Corn-4 Yrs Legume Hay" To2000Tillage="Intensive Tillage"></HistoricManagement>
+
+      <HistoricManagement Pre1980Management="Irrigation (Pre 1980s)" Crp="false" CrpStartYear="" CrpEndYear="" CrpType="" PreCrpManagement="" PreCrpTillage="" PostCrpManagement="" PostCrpTillage="" To2000Management="Irrigated: Annual Crops in Rotation" To2000Tillage="Intensive Tillage"></HistoricManagement>
+
+    </Parcel>
+    
+     <!--this provides the scenario information for the test-->
+    <CroplandsScenario Name="Baseline" CopyFromBaseline="false">
+      <ScenarioData ParcelName="F1" Years="All">
+        
+        <CropAndPlant CropType="Corn" PlantingDate="May 03" CoverCrop="false">
+          
+          <Harvest Date="October 15" Grain="true" Yield="235" Straw="70"></Harvest> 
+        </CropAndPlant>
+        
+        
+        <Tillage Date="April 30" Type="Intensive Tillage"></Tillage>
+        
+        <NitrogenApplication Date="May 01" Type="Urea (46-00-00)" TotalApplied="200" Method="Incorporate / Inject" Eep="None"></NitrogenApplication>
+
+        <Irrigation Date="May 31" Inches="1" EndDate="" Aerated="false"></Irrigation>
+        <Irrigation Date="June 30" Inches="1" EndDate="" Aerated="false"></Irrigation>
+        <Irrigation Date="July 31" Inches="1" EndDate="" Aerated="false"></Irrigation>
+        <Irrigation Date="August 31" Inches="1" EndDate="" Aerated="false"></Irrigation>
+        <Irrigation Date="September 30" Inches="1" EndDate="" Aerated="false"></Irrigation>
+        
+      
+      
+     
+      </ScenarioData>
+    </CroplandsScenario>
+    
+    <CroplandsScenario Name="Future" CopyFromBaseline="true">
+    </CroplandsScenario>
+  
+  </CFarmCroplandsData>
+
+  <CFarmReportData>
+     <CroplandsReportScenario Name="Baseline">
+    <CroplandsReport C="10.1" Co2="18.7" Co="0.0" N2o="64.2" Ch4="0.0" Total="93.2"></CroplandsReport>
+        </CroplandsReportScenario>
+  </CFarmReportData>
+  
+</CFarmDatatable>
+
